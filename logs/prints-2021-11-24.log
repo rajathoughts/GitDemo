@@ -1,0 +1,7 @@
+16:41:38.909 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xe36529ccd823cfc9
+16:41:41.093 [main] INFO  resources.Base - driver is initiated
+16:41:48.445 [main] INFO  resources.Base - driver has initiated
+16:41:58.477 [main] INFO  resources.Base - initiated landingpage
+16:42:13.473 [main] INFO  resources.Base - driver has initiated
+16:42:31.466 [main] INFO  resources.Base - initiated landingpage
+16:43:25.795 [main] INFO  resources.Base - validated title

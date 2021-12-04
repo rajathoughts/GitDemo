@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 342.699 s <<< FAILURE! - in TestSuite
+homePage(qaclickacademy.Homepage)  Time elapsed: 54.477 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://rahulshettyacademy.com/sign_in/">...</a> is not clickable at point (992, 16). Other element would receive the click: <div class="listbuilder-popup-content">...</div>
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-LPJ0J81', ip: '192.168.43.111', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [edc628b0ddb9f977b49b0b35d0f24fdf, clickElement {id=1058a716-9aba-48f8-98b0-bf860ff0b95d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\wins\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:64642}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64642/devtoo..., se:cdpVersion: 96.0.4664.45, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (edc628b0ddb9f977b49b0b35d0f24fdf)] -> css selector: a[href*='/sign_in/']]
+Session ID: edc628b0ddb9f977b49b0b35d0f24fdf
+	at qaclickacademy.Homepage.homePage(Homepage.java:36)
+
